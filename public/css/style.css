@@ -1,0 +1,71 @@
+.header {
+    background-color: #563d7c;
+    text-align: center;
+    color: #fff;
+}
+.cursor-pointer {
+    cursor: pointer;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+.cursor-pointer:hover {
+    background-color: rgb(130, 94, 239);
+    color: #fff;
+    font-weight: 700;
+}
+
+.container-list {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.container-list::-webkit-scrollbar {
+    width: 5px;
+    }
+.container-list::-webkit-scrollbar-track {
+background: white;
+}
+.container-list::-webkit-scrollbar-thumb {
+background: #563d7c;
+border-radius: 8px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 50px;
+}
+.font-weight-bold {
+    font-weight: 900;
+    font-size: 20px;
+}
+.text-transform-capitalize{
+    text-transform: capitalize;
+    font-size: 19px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/background.jpeg');
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-size: cover;
+    opacity: 0.9;
+    z-index: -1;
+}
+.background-white {
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+}
+.color-theme {
+    color: #563d7c;
+}
+.font-style-italic {
+    font-style: italic !important;
+}
